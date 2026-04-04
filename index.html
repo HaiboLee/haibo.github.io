@@ -1,1 +1,251 @@
-hello haibo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>PixelDriftRally Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #f5f7fb;
+            padding: 2rem 1rem;
+            line-height: 1.5;
+            color: #1c2e3a;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 28px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05), 0 2px 6px rgba(0,0,0,0.02);
+            overflow: hidden;
+            border: 1px solid #e9edf2;
+        }
+
+        .header {
+            background: #007aff;
+            padding: 2rem 2rem 1.8rem;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        .content {
+            padding: 2rem 2rem 2.2rem;
+        }
+
+        .intro {
+            background: #f8faff;
+            padding: 1.2rem 1.5rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #007aff;
+            font-size: 1rem;
+            color: #2c3e50;
+        }
+
+        .contact-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 24px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+
+        .contact-card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+            color: #1f3b4c;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-card h2:before {
+            content: "📬";
+            font-size: 1.5rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid #edf2f7;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+
+        .contact-label {
+            width: 90px;
+            font-weight: 600;
+            color: #2c5a74;
+        }
+
+        .contact-value {
+            flex: 1;
+            color: #1e2f3c;
+            word-break: break-all;
+        }
+
+        .contact-value a {
+            color: #007aff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-value a:hover {
+            text-decoration: underline;
+        }
+
+        .response-note {
+            background: #fef9e6;
+            border-radius: 18px;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1rem;
+            border: 1px solid #ffe6b3;
+            color: #9b6f0b;
+            font-size: 0.95rem;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .response-note span:first-child {
+            font-size: 1.5rem;
+        }
+
+        .faq-section {
+            margin-top: 2rem;
+        }
+
+        .faq-section h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1f3b4c;
+        }
+
+        .faq-item {
+            background: #f9fafc;
+            border-radius: 18px;
+            padding: 1rem 1.3rem;
+            margin-bottom: 0.8rem;
+            border: 1px solid #eef2f8;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            color: #005c99;
+        }
+
+        .faq-answer {
+            color: #3a5468;
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            background: #f8fafd;
+            text-align: center;
+            padding: 1.2rem;
+            font-size: 0.8rem;
+            color: #6c7e91;
+            border-top: 1px solid #e6edf4;
+        }
+
+        @media (max-width: 550px) {
+            .content {
+                padding: 1.5rem;
+            }
+            .contact-item {
+                flex-direction: column;
+                gap: 4px;
+            }
+            .contact-label {
+                width: auto;
+            }
+            .header h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>PixelDriftRally</h1>
+        <p>Technical Support & Help Center</p>
+    </div>
+    <div class="content">
+        <div class="intro">
+            👋 Hello racer! Need help with PixelDriftRally? Whether it's a technical issue, lost progress, 
+            leaderboard sync, or just a suggestion — we're here for you.
+        </div>
+
+        <div class="contact-card">
+            <h2>Contact Developer</h2>
+            <div class="contact-item">
+                <div class="contact-label">📧 Email:</div>
+                <div class="contact-value"><a href="mailto:lihaiboloveyou@live.com">lihaiboloveyou@live.com</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">👤 Developer:</div>
+                <div class="contact-value">Li Haibo</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">📍 Address:</div>
+                <div class="contact-value">No. 43, Yinhu Science and Technology Park, Yinhu Street, Fuyang District, Hangzhou City, Zhejiang Province, China</div>
+            </div>
+            <div class="response-note">
+                <span>⏱️</span> <span>We typically reply within 1–3 business days. Please include your device model, iOS version, and a brief description of the issue for faster assistance.</span>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h3>📌 Common Questions</h3>
+            <div class="faq-item">
+                <div class="faq-question">▶ Game Center leaderboard or achievements not updating?</div>
+                <div class="faq-answer">Make sure you are signed into Game Center in iOS Settings. Also, try restarting the game or logging out and back into Game Center. Your progress is safe and will sync once the connection is restored.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">▶ iCloud save not syncing across devices?</div>
+                <div class="faq-answer">Verify that iCloud Drive is enabled for PixelDriftRally (Settings > Apple ID > iCloud > Show All > PixelDriftRally). Also ensure you're using the same Apple ID on all devices.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">▶ How do I delete my match data or reset progress?</div>
+                <div class="faq-answer">You can request data deletion by emailing us. For Game Center reset, go to Game Center settings > "Reset Achievements". For iCloud saves, turn off sync in iCloud settings.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">▶ Where can I find the Privacy Policy?</div>
+                <div class="faq-answer">Our Privacy Policy is available at the link provided in the App Store listing. If you need a direct copy, please email us and we'll send it to you.</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © 2026 PixelDriftRally — Li Haibo. All rights reserved.<br>
+        Drive fast, stay safe.
+    </div>
+</div>
+</body>
+</html>
